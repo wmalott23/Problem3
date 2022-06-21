@@ -1,0 +1,19 @@
+.card {
+    width: 15rem;
+    padding: 0;
+  }
+
+
+.button {
+    background-color: #28c9b8;
+    border: none;
+    max-height: 2rem;
+    max-width: 2rem;
+    text-align: center;
+    text-justify: center;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding-bottom: 6px;
+}
+  

@@ -4,11 +4,11 @@ import {Link} from "react-router-dom";
 
 const Header = (props) => {
     return ( 
-        <div className="header bg-primary">
+        <div className="header">
             <ul>
                 <li>
                     <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-                        <b>Home</b>
+                        <b>CHALLENGE 2</b>
                     </Link>
                 </li>
             </ul>

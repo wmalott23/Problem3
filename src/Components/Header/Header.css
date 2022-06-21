@@ -1,17 +1,15 @@
 ul {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
   }
   
 li {
-font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .header {
-    background: grey;
-    box-shadow: 4px 2px 5px black;
+    background: black;
     color: white;
     margin-bottom: 2rem;
-    padding: 1.5rem 2rem;
+    padding: 1rem;
 }
