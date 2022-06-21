@@ -16,15 +16,15 @@ const Display = ({donators}) => {
         donators.map((el, index) => {
             return (
                 <Card key={index} className="card m-3">
-                    <Card.Header className="image blue-gradient" style={styles.cardImage}/>
+                    <Card.Header className="image" style={styles.cardImage}/>
                     <Card.Body>
                         <div className="d-flex align-items-center justify-content-between">
                         <div className="d-flex flex-column">
                             <div>
-                                <Card.Title>{el.name}</Card.Title>
+                                <Card.Title className="title">{el.name}</Card.Title>
                             </div>
                             <div>
-                                <h7 className="text-white bg-secondary w-50 p-1">
+                                <h7 className="tag text-dark w-50 p-1">
                                     {el.work_phone}
                                 </h7>
                             </div>
